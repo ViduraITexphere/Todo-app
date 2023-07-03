@@ -1,0 +1,18 @@
+.todo_item {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: rgb(74, 141, 91);
+  border-radius: 10px;
+  margin: 6px 4px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.todo_item p {
+  flex: 1;
+}
+.todoItem_done {
+  text-decoration: line-through;
+}
